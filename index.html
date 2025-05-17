@@ -4,7 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chatbot UI | Marsudi</title>
+    <title>Chatbot</title>
+    <!-- FAVICON -->
+    <link rel="icon" href="logo.svg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
     <!-- MATERIAL SYSMBOL -->
     <link rel="stylesheet"
@@ -59,31 +61,33 @@
                     draw
                 </span>
             </li>
-
         </ul>
+
+        <!-- Chats Container -->
+        <div class="chats-container">
+            <!-- CHAT -->
+        </div>
 
         <!-- Prompt Container -->
         <div class="prompt-container">
             <div class="prompt-wrapper">
-                <form action="" class="prompt-form">
-                    <input type="text" class="prompt-input" placeholder="Ask me anything...">
+                <form action="#" class="prompt-form">
+                    <input type="text" class="prompt-input" placeholder="Ask me anything..." required>
                     <div class="prompt-actions">
                         <button id="add-file-btn" type="button" class="material-symbols-rounded">attach_file</button>
-                        <button id="add-file-btn" type="button" class="material-symbols-rounded">arrow_upward</button>
+                        <button id="send-prompt-btn" class="material-symbols-rounded">arrow_upward</button>
                     </div>
                 </form>
-
                 <button id="theme-toggle-btn" class="material-symbols-rounded">light_mode</button>
                 <button id="delete-chats-btn" class="material-symbols-rounded">delete</button>
-
             </div>
-            <p class="disclaimer-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti, saepe!</p>
+            <p class="disclaimer-text">Chatbot Experimental</p>
 
         </div>
 
 
     </div>
-
+    <script src="script.js"></script>
 </body>
 
 </html>
